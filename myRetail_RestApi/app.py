@@ -43,6 +43,11 @@ product_schema = ProductSchema()
 products_schema = ProductSchema(many=True)
 
 
+@app.route('/')
+def index():
+    return "<h1>Hello welcome<h1>"
+
+
 # Create a Product
 @app.route('/product', methods=['POST'])
 def add_product():
