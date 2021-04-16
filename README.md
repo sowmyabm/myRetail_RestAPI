@@ -17,8 +17,8 @@ pip install flask_mashmallow
 python app.py
 
 # The REST end points for CRUD operations
-GET /product
-GET /product/:id
-POST /product
-PUT /product/:id
-DELETE /product/:id
+1. GET /product
+2. GET /product/
+3. POST /product
+4. PUT /product/:id
+5. DELETE /product/:id
